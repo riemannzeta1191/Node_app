@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8">
+        <title>My Title</title>
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css"/>
+</head>
+<body>
+	<% include ./image.ejs %>
+	<article>
+	<p>FirstName is   <%= theStudent.firstname %></p>
+	<p>LastName is  <%= theStudent.lastname %></p>
+	<p>Degree is  <%= theStudent.degree %></p>
+	<p>Program is   <%= theStudent.program %></p>
+	<p>count is <%= theStudent.counter %></p>
+	</article>
+</body>
+</html>

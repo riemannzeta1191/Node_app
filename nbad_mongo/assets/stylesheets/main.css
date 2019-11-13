@@ -1,0 +1,19 @@
+body {
+  background-color: #00949d; }
+
+
+
+article {
+  list-style-type: none;
+  color:#e6e6e6 ;
+  padding: 0px 0px 0px 600px;
+  margin-top: 60px;
+}
+
+.topnav{
+	padding:  0px 0px 0px 510px;
+}
+
+.control-label{
+	color: yellow;
+}
